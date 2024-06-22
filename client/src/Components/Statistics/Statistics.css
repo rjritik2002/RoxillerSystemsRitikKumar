@@ -1,0 +1,31 @@
+
+.Statistics {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+.Statistics h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px; 
+  color: #333333; 
+}
+
+.Statistics p {
+  font-size: 1rem;
+  color: #555555; 
+  margin-bottom: 10px; 
+}
+
+.Statistics .total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1abc9c; 
+}

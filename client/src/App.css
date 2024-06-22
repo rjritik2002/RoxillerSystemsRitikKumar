@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.App h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.Table-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.Statistics-container {
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Table-title,
+.Statistics-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.Table-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.Table-row:last-child {
+  border-bottom: none;
+}
+
+.Table-column {
+  flex: 1;
+}
+
+.Statistics-item {
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .App-content {
+    padding: 10px;
+  }
+
+  .Table-container,
+  .Statistics-container {
+    margin-top: 10px;
+  }
+
+  .App-footer {
+    padding: 5px 0;
+  }
+}

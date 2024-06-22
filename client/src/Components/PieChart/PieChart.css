@@ -1,0 +1,17 @@
+.PieChart {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.PieChart h2 {
+  margin-bottom: 20px;
+}
+
+.PieChart-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
