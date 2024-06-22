@@ -1,7 +1,7 @@
 
 
 
-# Roxiller Systems Pankaj Mourya
+# Roxiller Systems Ritik Kumar
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@
 
 ## Introduction
 
-Roxiller Systems Pankaj Mourya is a web application designed to display transaction data with various visualization tools such as tables, pie charts, and bar charts. Users can filter data by month, search by title, and view detailed statistics about the transactions.
+Roxiller Systems Ritik kumar is a web application designed to display transaction data with various visualization tools such as tables, pie charts, and bar charts. Users can filter data by month, search by title, and view detailed statistics about the transactions.
 
 ## Features
 
@@ -52,13 +52,6 @@ Roxiller Systems Pankaj Mourya is a web application designed to display transact
 
 - Node.js and npm installed
 - MongoDB instance (local or cloud)
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/pankajmfilesourya123/RoxillerSystemsPankajMourya.git
-cd RoxillerSystemsPankajMourya
-```
 
 ### Backend Setup
 
